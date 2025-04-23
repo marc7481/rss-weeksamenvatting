@@ -1,10 +1,10 @@
-<?xml version="1.0" ?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
   <channel>
     <title>Persoonlijke weeksamenvatting</title>
     <link>https://marc7481.github.io/rss-weeksamenvatting/weeksamenvatting.rss</link>
     <description>Wekelijkse reflectie: wat ging goed, wat ging minder, wat neem je mee naar volgende week.</description>
-    <ns0:link href="https://marc7481.github.io/rss-weeksamenvatting/weeksamenvatting.rss" rel="self" type="application/rss+xml"/>
+
     <item>
       <title>Weeksamenvatting – zondag 21 april 2025</title>
       <link>https://marc7481.github.io/rss-weeksamenvatting/2025-04-21.html</link>
@@ -13,20 +13,18 @@
 Wat vroeg energie: volle dagen, technische uitdagingen, sociale spanning.
 
 Wat neem je mee: één ding tegelijk, rust is herstel, en nietsdoen mag.</description>
-      <pubDate>Wed, 23 Apr 2025 12:47:35 +0000</pubDate>
+      <pubDate>Sun, 21 Apr 2025 20:00:00 +0000</pubDate>
       <guid>https://marc7481.github.io/rss-weeksamenvatting/2025-04-21.html</guid>
     </item>
-  <item>
-    <title>Weeksamenvatting – Wednesday 23 April 2025</title>
-    <link>https://marc7481.github.io/rss-weeksamenvatting/2025-04-23</link>
-    <description>Wat ging goed deze week: Je reflecteerde dagelijks, startte het schilderproject, genoot van sociale momenten en zette een handleiding op.
 
-Wat vroeg energie: Volle dagen, technische uitdagingen, sociale spanning.
-
-Wat neem je mee: Één ding tegelijk, rust is herstel, en nietsdoen mag.</description>
-    <pubDate>Wed, 23 Apr 2025 14:02:24 +0000</pubDate>
-    <guid>https://marc7481.github.io/rss-weeksamenvatting/2025-04-23</guid>
-  </item>
+    <!-- ⬇️ Tijdelijk testitem -->
+    <item>
+      <title>Testsamenvatting – donderdag 24 april 2025</title>
+      <link>https://marc7481.github.io/rss-weeksamenvatting/2025-04-24</link>
+      <description>Dit is een test van de automatische workflow en IFTTT-trigger.</description>
+      <pubDate>Thu, 24 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>https://marc7481.github.io/rss-weeksamenvatting/2025-04-24</guid>
+    </item>
 
   </channel>
 </rss>
