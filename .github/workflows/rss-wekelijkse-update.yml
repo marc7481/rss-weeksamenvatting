@@ -1,0 +1,29 @@
+name: Voeg nieuwe weeksamenvatting toe
+
+on:
+  schedule:
+    - cron: '30 18 * * 0'  # Elke zondag om 20:30 NL tijd (18:30 UTC)
+  workflow_dispatch:       # Handmatig starten via GitHub interface
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Haal de repo op
+        uses: actions/checkout@v4
+
+      - name: Zet Python 3 klaar
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Voer script uit
+        run: python scripts/voeg_weeksamenvatting_toe.py
+
+      - name: Commit en push gewijzigde RSS-feed
+        run: |
+          git config --global user.name "Automatische Feedbot"
+          git config --global user.email "feedbot@example.com"
+          git add weeksamenvatting.rss
+          git commit -m "Automatisch toegevoegde weeksamenvatting" || echo "Niets om te committen"
+          git push
