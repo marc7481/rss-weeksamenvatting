@@ -2,7 +2,7 @@ name: Voeg nieuwe weeksamenvatting toe
 
 on:
   schedule:
-    - cron: '30 18 * * 0'  # Elke zondag om 20:30 NL tijd (18:30 UTC)
+    - cron: '0 19 * * 0'  # Elke zondag om 21:00 NL-tijd
   workflow_dispatch:       # Handmatig starten via GitHub interface
 
 jobs:
